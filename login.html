@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+   <link rel="stylesheet" href="./login.css">
+    <script src="https://kit.fontawesome.com/97ebdf5864.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="" id="form">
+            <div class="form-group">
+                <input type="text" id="username">
+                <label for="">User name</label>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password"s>
+                <label for="">Password</label>
+                <!-- <i class="fa-solid fa-lock"></i> -->
+            </div>
+            <p><input type="checkbox">Remember me <a href="#" onclick="forgetPassword">Forget Password</a></p>
+            <input id="btn" type="submit" value="login">
+            <div id="message" class="message"></div>
+        </form>
+    </div>
+    <script src="./login.js"></script>
+</body>
+
+</html>
