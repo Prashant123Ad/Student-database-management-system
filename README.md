@@ -37,7 +37,7 @@ This project is a Student Database Management System designed to manage student 
    - Import the SQL file provided in the repository.
 
 3. Configure the database connection:
-   - Open the `config.php` file.
+   - Open the `index.php` file.
    - Update the following variables with your database details:
      ```php
      $servername = "localhost";
